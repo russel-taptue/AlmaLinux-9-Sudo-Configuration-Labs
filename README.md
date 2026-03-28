@@ -29,7 +29,7 @@ Create user accounts and assign different levels of sudo privileges to demonstra
    ```
 
    Switch to each account to verify creation:
-   ![User screen](images/user_screen.png)
+   ![User screen](images/user_screem.png)
 
 2. **Edit the Sudoers File:**
    Open the sudoers file with visudo for safe editing:
@@ -50,7 +50,7 @@ Create user accounts and assign different levels of sudo privileges to demonstra
    katelyn ALL=(ALL) /usr/bin/systemctl status sshd
    maggie ALL=(ALL) STORAGE
    ```
-   ![Add Privileges](images/add_privilege.png)
+   ![Add Privileges](images/add_privileges.png)
 
    Save the file and exit.
 
@@ -108,7 +108,7 @@ Create user accounts and assign different levels of sudo privileges to demonstra
    ```
    sudo systemctl status sshd
    ```
-   ![sshd maggie](images/ssh_maggie.png)
+   ![sshd maggie](images/sshd_maggie.png)
 
    ```
    sudo systemctl restart sshd
@@ -188,7 +188,7 @@ Configure and disable the sudo password timeout (sudo timer) on AlmaLinux 9 to e
    ```
    sudo fdisk -l
    ```
-   ![fdisk Pass](images/fdis_pass.png)
+   ![fdisk Pass](images/fdisk_pass.png)
 
    ```
    sudo systemctl status sshd
